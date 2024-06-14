@@ -1,0 +1,43 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(87, 139, 151, 0.845);
+  }
+  
+  .portada {
+    text-align: left;
+    background: rgb(29, 35, 103);
+    color: white;
+    padding: 20px;
+  }
+  
+  #encabezado-pregunta {
+    background-color: rgba(145, 112, 222, 0.682);
+    width: 80vw;
+    min-height: 200px;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid rgba(76, 110, 187, 0.771);
+  }
+  
+  input[type="radio"]{
+       display: none;
+  }
+  
+  input[type="radio"]:checked + label{
+       background-color: rgba(67, 174, 110, 0.8);
+       color: white;
+  }
+  
+  label{
+       padding: 10px;
+       margin: 10px;
+       width: 70vw;
+       background-color: white;
+       border: 3px solid lightgray;
+  }
